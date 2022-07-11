@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Survey</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- !#Title -->
+            <h1 id="title" class="header">Online College Survey</h1>
+            
+            <!-- !#Description -->
+            <p id="description" class="description header">For The Students of Computer Science in Constantine</p>
+        </header>
+        
+        <main class="form-background">
+          
+            <!-- !#Form -->
+            <form action="" id="survey-form">
+
+                <!-- !#Name -->
+                <div class="form-question">
+                    <label id="name-label" for="name">Name</label>
+                    <input class="input-fields bars " id="name" type="text" placeholder="Enter Your Name (required) " required>
+                </div>
+
+                <!-- !#Email -->
+                <div class="form-question">
+                    <label id="email-label" for="email">Email</label>
+                    <input class="input-fields bars" type="email" id="email" placeholder="Enter Your Email (required) " required>
+                </div>
+
+                <!-- !#Age -->
+                <div class="form-question">
+                    <label id="number-label" for="number">Age</label>
+                    <input class="input-fields bars" type="number" id="number" placeholder="Enter Your Age (optional) " min="15" max="40">
+                </div>
+
+                <!-- !#StudentID -->
+                <div class="form-question">
+                    <label id="student-id-label" for="student-id">Student ID Number</label>
+                    <input class="input-fields bars" type="text" id="student-id" placeholder="Enter Your Student-ID (required) " pattern="[0-9]{12,12}" required>
+                </div>
+
+                <!-- !#Year -->
+                <div class="form-question">
+                    <label id="dropdown-label" for="dropdown">What Year Are You Currently In </label>
+                    <select class="select-fields" name="dropdown" id="dropdown">
+                        <option value="0" selected>None (dropped out or graduated)</option>
+                        <option value="1">L1</option>
+                        <option value="2">L2</option>
+                        <option value="3">L3</option>
+                        <option value="4">M1</option>
+                        <option value="5">M2</option>
+                    </select>
+                </div>
+
+                
+
+                <!-- !#Describe-Uni -->
+                <div class="form-question">
+                    <label for="">How Would You Describe The University Of Costantine?</label>
+                    <label for="radio-1"><input type="radio" name="radio" id="radio-1" value="top-tier"> Top Tier</label>
+                    <label for="radio-2"><input type="radio" name="radio" id="radio-2" value="great"> Great</label>
+                    <label for="radio-3"><input type="radio" name="radio" id="radio-3" value="good" checked> Good</label>
+                    <label for="radio-4"><input type="radio" name="radio" id="radio-4" value="below-average"> Below Average</label>
+                    <label for="radio-5"><input type="radio" name="radio" id="radio-5" value="bad"> Bad</label>
+                </div>
+
+                <!-- !#Curriculum -->
+                <div class="form-question">
+                    <label for="">What Would You Like To be More Present The Curriculum ?</label>
+                    <label for="checkbox-1"><input type="checkbox" name="checkbox" id="checkbox-1" value="1"> Python and Data Science</label>
+                    <label for="checkbox-2"><input type="checkbox" name="checkbox" id="checkbox-2" value="2"> Modern CSS Framworks</label>
+                    <label for="checkbox-3"><input type="checkbox" name="checkbox" id="checkbox-3" value="3"> Modern JavaScript Framworks</label>
+                    <label for="checkbox-4"><input type="checkbox" name="checkbox" id="checkbox-4" value="4"> Modules in English</label>
+                    <label for="checkbox-5"><input type="checkbox" name="checkbox" id="checkbox-5" value="5"> Updated Old Modules</label>
+                    <label for="checkbox-6"><input type="checkbox" name="checkbox" id="checkbox-6" value="6"> Workshops</label>
+                </div>
+
+                <hr class="linebreak 1">
+                
+                <!-- !#Comments -->
+                <div class="form-question">
+                    <label for="textarea">Any Comments on How we could Improve our University ?</label>
+                    <textarea class="textarea" name="textarea" id="textarea" rows="5"></textarea>
+                </div>
+                
+                
+                
+                <!-- !#SubmitButton -->
+                <div class="form-question">
+                    <input class="submit" type="submit" value="Submit" id="submit">
+                </div>
+
+
+                <!-- !#My-Link -->
+                <p class="profile-link"><a href="https://github.com/AdemBendjama">@Adem Bendjama</a></p>
+
+            </form>
+        </main>
+    </div>
+    </div>
+</body>
+
+</html>
