@@ -92,7 +92,7 @@ input[type="checkbox"] {
 
 
 .input-fields.bars {
-    height: 2em;
+    height: 2.5em;
     padding: 3px 3px 3px 12px;
 }
 
@@ -109,8 +109,8 @@ input[type="checkbox"] {
 .select-fields {
     width: 98%;
     margin: 0 auto 0 auto;
-    height: 2.3em;
-    padding: 3px 3px 3px 9px;
+    height: 2.8em;
+    padding: 3px 3px 4px 9px;
 }
 
 .input-fields,
@@ -144,24 +144,6 @@ input[type="checkbox"] {
     box-shadow: 0 0 0 0 #fff inset, #FF4742 0 0 0 3px;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
-    box-shadow: inset #260f20a7 0 0 0 2px;
-    border: 0;
-    background: #ffffff;
-    transition: all .2s ease;
-}
-
-input[type="radio"]:hover,
-input[type="checkbox"]:hover {
-    box-shadow: inset #FF4742 0 0 0 5px;
-}
-
-input[type="radio"]:focus,
-input[type="checkbox"]:focus {
-    outline: 0;
-    box-shadow: inset #260f20a7 0 0 0 2px;
-}
 /*! FOOTER */
 
 .textarea {
@@ -345,6 +327,28 @@ a:active {
     input[type="checkbox"] {
         height: 1.6em;
         width: 1.6em;
+
+    }
+}
+@media (min-width:2000px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    body {
+        font-size: 26px;
+    }
+
+    .input-fields.bars,
+    .select-fields,
+    .submit {
+        font-size: 24px;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        height: 1.8em;
+        width: 1.8em;
 
     }
 }
