@@ -1,12 +1,14 @@
 /* ! Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family:'Playfair Display' ;
+    src: url(./fonts/Playfair_Display/Playfair-Display.ttf);
+}
 /*! Main */
 
 body {
     text-align: center;
     margin: 0;
-    background-image: linear-gradient(115deg, #BF6D2499, #BF6D248a), url(https://i3.lensdump.com/i/tMb4qa.jpg);
+    background-image: linear-gradient(115deg, #BF6D2499, #BF6D248a), url(./images/college-classroom.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
