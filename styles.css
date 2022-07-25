@@ -1,11 +1,11 @@
 /* ! Fonts*/
 @font-face {
     font-family: 'Playfair Display';
-    src: url(./fonts/Playfair_Display/Playfair-Display.ttf);
+    src: url(./fonts/Playfair_Display/Playfair-Display.woff2);
 }
 @font-face {
     font-family: 'Noto-sans';
-    src: url(./fonts/Noto_Sans/NotoSans-Regular.ttf);
+    src: url(./fonts/Noto_Sans/NotoSans-Regular.woff2);
 }
 
 /*! Main */
