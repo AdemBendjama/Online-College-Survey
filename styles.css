@@ -3,6 +3,10 @@
     font-family: 'Playfair Display';
     src: url(./fonts/Playfair_Display/Playfair-Display.ttf);
 }
+@font-face {
+    font-family: 'Noto-sans';
+    src: url(./fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
 
 /*! Main */
 
@@ -24,7 +28,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: sans-serif;
+    font-family: 'Noto-sans',sans-serif;
 }
 
 
