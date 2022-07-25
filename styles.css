@@ -1,9 +1,20 @@
 /* ! Fonts*/
 @font-face {
-    font-family:'Playfair Display' ;
+    font-family: 'Playfair Display';
     src: url(./fonts/Playfair_Display/Playfair-Display.ttf);
 }
+
 /*! Main */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 body {
     text-align: center;
@@ -29,7 +40,8 @@ body {
     margin: 0 auto 0 auto;
 
 }
-h1{
+
+h1 {
     font-family: 'Playfair Display';
 }
 
@@ -56,7 +68,7 @@ header {
 .description {
     font-style: italic;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-    font-family:  sans-serif;
+    font-family: sans-serif;
 }
 
 label {
@@ -73,7 +85,7 @@ label {
     background-color: #bf6c24cd;
     color: #BF6D24;
     height: 1px;
-    width: 97%;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 25px;
 }
@@ -94,7 +106,7 @@ input[type="checkbox"] {
 
 
 .input-fields.bars {
-    height: 2.5em;
+    height: 2.8rem;
     padding: 3px 3px 3px 12px;
 }
 
@@ -104,20 +116,20 @@ input[type="checkbox"] {
 }
 
 .input-fields {
-    width: 96%;
+    width: 100%;
     margin: 0 auto 0 auto;
 }
 
 .select-fields {
-    width: 98%;
+    width: 100%;
     margin: 0 auto 0 auto;
-    height: 2.8em;
+    height: 2.8rem;
     padding: 3px 3px 4px 9px;
 }
 
 .input-fields,
 .textarea,
-.select-fields{
+.select-fields {
 
 
     box-shadow: inset #260f20a7 0 0 0 2px;
@@ -138,7 +150,7 @@ input[type="checkbox"] {
 
 .input-fields:focus,
 .select-fields:focus,
-.textarea:focus{
+.textarea:focus {
     background: #fff;
     color: black;
     border-radius: 2px 2px 2px 2px;
@@ -149,13 +161,13 @@ input[type="checkbox"] {
 /*! FOOTER */
 
 .textarea {
-    width: 98%;
+    width: 100%;
     margin: 0 auto 2% auto;
 }
 
 .submit {
-    width: 98%;
-    height: 2.5em;
+    width: 100%;
+    height: 2.8rem;
     margin: 3% auto 8% auto;
 
 }
@@ -169,7 +181,7 @@ input[type="checkbox"] {
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 16px;
@@ -183,18 +195,18 @@ input[type="checkbox"] {
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
-  }
-  
-  .submit:hover,
-  .submit:active {
-    background-color:#260f20a7 ;
+}
+
+.submit:hover,
+.submit:active {
+    background-color: #260f20a7;
     background-position: 0 0;
     color: #FF4742;
-  }
-  
-  .submit:active {
+}
+
+.submit:active {
     opacity: .8;
-  }
+}
 
 .profile-link {
     margin-bottom: 5%;
@@ -231,14 +243,15 @@ a:active {
     .submit {
         font-size: 12px;
     }
+
     input[type="radio"],
     input[type="checkbox"] {
-        height: 1.2em;
-        width: 1.2em;
+        height: 1rem;
+        width: 1rem;
 
     }
 
-    
+
 }
 
 @media (min-width:485px) {
@@ -255,10 +268,11 @@ a:active {
     .submit {
         font-size: 14px;
     }
+
     input[type="radio"],
     input[type="checkbox"] {
-        height: 1.3em;
-        width: 1.3em;
+        height: 1.1rem;
+        width: 1.1rem;
 
     }
 
@@ -281,8 +295,8 @@ a:active {
 
     input[type="radio"],
     input[type="checkbox"] {
-        height: 1.4em;
-        width: 1.4em;
+        height: 1.2rem;
+        width: 1.2rem;
 
     }
 }
@@ -304,8 +318,8 @@ a:active {
 
     input[type="radio"],
     input[type="checkbox"] {
-        height: 1.5em;
-        width: 1.5em;
+        height: 1.3rem;
+        width: 1.3rem;
 
     }
 }
@@ -327,11 +341,12 @@ a:active {
 
     input[type="radio"],
     input[type="checkbox"] {
-        height: 1.6em;
-        width: 1.6em;
+        height: 1.4rem;
+        width: 1.4rem;
 
     }
 }
+
 @media (min-width:2000px) {
     .container {
         max-width: 1000px;
@@ -349,10 +364,8 @@ a:active {
 
     input[type="radio"],
     input[type="checkbox"] {
-        height: 1.8em;
-        width: 1.8em;
+        height: 1.5rem;
+        width: 1.5rem;
 
     }
 }
-
-
